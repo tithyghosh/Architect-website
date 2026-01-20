@@ -136,11 +136,16 @@ main> section{
       flex-direction: column;
    }
 
-   .team-img-container{
-      grid-template-columns: repeat(1, 1fr);
+   .team-img-container, .facts-container{
+      grid-template-columns: 1fr;
+
    }
    .features{
       margin-left: 20px ;
+   }
+   .facts-container{
+      justify-items: center;
+      gap: 24px;
    }
 }
 /* Medium size device */
