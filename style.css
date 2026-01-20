@@ -100,6 +100,27 @@ main> section{
 #quick-list{
    font-weight: 500;
 }
+/* Feature section related style */
+.features{
+   gap: 140px;
+}
+#feature-section-title{
+   border-left: 5px solid #ff900e;
+   padding-left: 20px;
+}
+.feature-card{
+   padding: 30px;
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.86);
+   margin-bottom: 20px;
+   border-radius: 8px;
+}
+.feature-card .feature-title{
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
 /*  Some facts related style*/
 .facts-container{
    display: grid;
